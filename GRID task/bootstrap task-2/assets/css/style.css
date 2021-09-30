@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
-.col {
+/* .col {
     border: 2px solid black;
     border-radius: 20px;
     height: 200px;
     text-align: center;
     background-color: blue;
+} */
+
+.block {
+    height: 200px;
+    overflow: hidden;
 }
 
-.test {
+
+.col {
     display: flex;
-    flex-direction: column-reverse
+    flex-direction: column;
 }
