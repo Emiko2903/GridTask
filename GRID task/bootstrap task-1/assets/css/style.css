@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: auto;
+}
+
+.col{
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    height: 150px;
+    background-color: rgba(177, 241, 57, 0.911);
+}
+
+/* 
+Как работает col-2 и почему делает width 16%   ???
+Почме bootstrap не реагирует на другие классы  ???
+Почему не работает класс xs для маленьких экранов ???
+*/
+
+/* @media screen and (max-width: 768px) {
+    .col-lg-6 {
+        width: 100%;
+    }
+
+} */
